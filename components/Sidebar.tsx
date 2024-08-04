@@ -1,5 +1,5 @@
 import React from 'react'
-import NewDocuments from './NewDocuments'
+import NewDocumentButton from './NewDocumentButton'
 
 import {
     Sheet,
@@ -13,7 +13,7 @@ import { MenuIcon } from 'lucide-react'
 function Sidebar() {
     const menuOptions = (
         <>
-            <NewDocuments />
+            <NewDocumentButton />
 
             {/* My Docs 
             List 
