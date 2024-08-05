@@ -3,7 +3,7 @@
 import { auth } from "@clerk/nextjs/server"
 
 export async function createdDocuemt() {
-    auth().practice()
+    auth().protect()
 
-    const {sessionClaim} = await auth()
+    const { sessionClaims } = await auth()
 }
