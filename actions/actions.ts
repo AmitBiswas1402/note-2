@@ -19,4 +19,6 @@ export async function createdDocuemt() {
         createdAt: new Date(),
         rowid: docRef.id
     })
+
+    return {docId : docRef.id}
 }
